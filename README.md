@@ -7,7 +7,6 @@ Current list of applications:
   3. SciPy Stack
   4. Docker
   5. Hadoop on a Single Node
-  6. 
   
 Current list of in-progress applications:
   1. Hadoop on a Multi-Node Cluster
