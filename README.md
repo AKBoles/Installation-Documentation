@@ -9,6 +9,6 @@ Current list of applications:
   5. Hadoop on a Single Node
   
 Current list of in-progress applications:
-  1. Hadoop on a Multi-Node Cluster
-  2. Apache Spark on a Single Node
+  1. Apache Spark on a Single Node
+  2. Hadoop on a Multi-Node Cluster
   3. Apache Spark on a Multi-Node Cluster
