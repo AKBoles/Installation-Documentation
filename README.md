@@ -7,8 +7,8 @@ Current list of applications:
   3. SciPy Stack
   4. Docker
   5. Hadoop on a Single Node
+  6. Spark on a Single Node
   
 Current list of in-progress applications:
-  1. Apache Spark on a Single Node
-  2. Hadoop on a Multi-Node Cluster
-  3. Apache Spark on a Multi-Node Cluster
+  1. Hadoop on a Multi-Node Cluster
+  2. Apache Spark on a Multi-Node Cluster
