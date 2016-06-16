@@ -8,7 +8,8 @@ Current list of applications (in order of completion):
   4. Docker
   5. Hadoop on a Single Node
   6. Spark on a Single Node
-  7. Creating a new lease in Chameleon Cloud
+  7. Creating a new lease in Chameleon Cloud (GUI)
+  8. Launching a new Baremetal Instance in Chameleon Cloud (GUI)
   
 Current list of in-progress applications:
   1. Hadoop on a Multi-Node Cluster
