@@ -10,6 +10,7 @@ Current list of applications (in order of completion):
   6. Spark on a Single Node
   7. Creating a new lease in Chameleon Cloud (GUI)
   8. Launching a new Baremetal Instance in Chameleon Cloud (GUI)
+  9. Installing Matlab onto a Baremetal Server
   
 Current list of in-progress applications:
   1. Hadoop on a Multi-Node Cluster
