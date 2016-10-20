@@ -174,7 +174,3 @@ Spark Single Node Installation:
   2.	Make sure that Java is installed (see Hadoop Single Node Installation Step 1 above).
   3.	To run Spark in pyspark, enter into Spark folder and type:
     $ ./bin/pyspark
-
-
-
-
