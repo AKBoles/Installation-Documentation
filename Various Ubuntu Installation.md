@@ -1,7 +1,12 @@
-Pip Installation: 
+Ubuntu Installation Documentation
+=================================
+
+Primarily for my reference when needed.
+
+###Pip Installation:### 
     $ sudo apt-get install python-pip python-dev --yes
     
-TensorFlow Installation (CPU only):
+###TensorFlow Installation (CPU only):### 
     $ sudo pip install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.8.0-cp27-none-linux_x86_64.whl
 
 (Note: to upgrade installation, it is good practice to use “pip uninstall” first to get a clean installation of the updated TensorFlow.)
@@ -18,13 +23,13 @@ To test Tensorflow installation:
   Hello sir.
   >>>
 
-SciPy Stack Installation:
+###SciPy Stack Installation:###
     $ sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose --yes
     
-Jupyter Notebook Installation:    
+###Jupyter Notebook Installation:###  
     $ sudo pip install jupyter
 
-Docker Installation:
+###Docker Installation:###
   Check for updates, make sure that “apt” works with https and that CA certificates are installed:
     $ sudo apt-get update
     $ sudo apt-get install apt-transport-https ca-certificates
@@ -49,17 +54,17 @@ Docker Installation:
   Verify docker is installed correctly:
     $ sudo docker run hello-world
 
-R Programming Installation:
+###R Programming Installation:###
     $ sudo apt-get install r-base --yes
 
-Java 8 Installation:
+###Java 8 Installation:###
     $ sudo add-apt-repository ppa:webupd8team/java
     $ sudo apt-get update
     $ sudo apt-get install oracle-java8-installer
     $ sudo apt-get install oracle-java8-set-default
     $ java –version
 
-Hadoop Single Node Installation:
+###Hadoop Single Node Installation:###
   1.	Install Java 8 onto system. See above.
   2.	Install ssh onto system, check proper installation:
     $ sudo apt-get install ssh
@@ -167,7 +172,7 @@ Hadoop Single Node Installation:
     75755 DataNode
     76332 ResourceManager
 
-Spark Single Node Installation:
+###Spark Single Node Installation:###
   1.	Download and unpack pre-built Apache Spark 1.6.1:
     $ wget http://d3kbcqa49mib13.cloudfront.net/spark-1.6.1-bin-hadoop2.6.tgz
     $ sudo tar -xvzf spark-1.6.1-bin-hadoop2.6.tgz 
