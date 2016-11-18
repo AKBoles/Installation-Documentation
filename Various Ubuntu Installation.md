@@ -11,17 +11,27 @@ Primarily for my reference when needed.
 
 (Note: to upgrade installation, it is good practice to use “pip uninstall” first to get a clean installation of the updated TensorFlow.)
 
-To test Tensorflow installation: 
-  cc@ml-1:~$ python
-  Python 2.7.6 (default, Jun 22 2015, 17:58:13)
-  [GCC 4.8.2] on linux2
-  Type "help", "copyright", "credits" or "license" for more information.
-  >>> import tensorflow as tf
-  >>> hello = tf.constant('Hello sir.')
-  >>> sess = tf.Session()
-  >>> print(sess.run(hello))
-  Hello sir.
-  >>>
+   To test Tensorflow installation: 
+    
+    cc@ml-1:~$ python
+    
+    Python 2.7.6 (default, Jun 22 2015, 17:58:13)
+    
+    [GCC 4.8.2] on linux2
+    
+    Type "help", "copyright", "credits" or "license" for more information.
+    
+    >>> import tensorflow as tf
+    
+    >>> hello = tf.constant('Hello sir.')
+    
+    >>> sess = tf.Session()
+    
+    >>> print(sess.run(hello))
+    
+    Hello sir.
+    
+    >>>
 
 ###SciPy Stack Installation:###
     $ sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose --yes
@@ -30,29 +40,50 @@ To test Tensorflow installation:
     $ sudo pip install jupyter
 
 ###Docker Installation:###
+
   Check for updates, make sure that “apt” works with https and that CA certificates are installed:
-    $ sudo apt-get update
-    $ sudo apt-get install apt-transport-https ca-certificates
+      
+      $ sudo apt-get update
+      $ sudo apt-get install apt-transport-https ca-certificates
+    
   Add the new GPG key:
-    $ sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+      
+      $ sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+  
   Open /etc/apt/sources.list directory.
+  
   Create docker.list file:
-    $ sudo vi docker.list
+      
+      $ sudo vi docker.list
+  
   Add an entry for Ubuntu 14.04 operating system:
-    $ deb https://apt.dockerproject.org/repo ubuntu-trusty main
+      
+      $ deb https://apt.dockerproject.org/repo ubuntu-trusty main
+  
   Save and close the docker.list file. Update and then purge old repo if it exists:
-    $ sudo apt-get update
-    $ sudo apt-get purge lxc-docker
+     
+      $ sudo apt-get update
+      $ sudo apt-get purge lxc-docker
+  
   Verify that “apt” is pulling from the right repository:
-    $ apt-cache policy docker-engine
+      
+      $ apt-cache policy docker-engine
+  
   Install apparmor:
-    $ sudo apt-get install apparmor
+      
+      $ sudo apt-get install apparmor
+  
   Install Docker:
-    $ sudo apt-get install docker-engine
+      
+      $ sudo apt-get install docker-engine
+  
   Start the docker daemon:
-    $ sudo service docker start
+      
+      $ sudo service docker start
+  
   Verify docker is installed correctly:
-    $ sudo docker run hello-world
+      
+      $ sudo docker run hello-world
 
 ###R Programming Installation:###
     $ sudo apt-get install r-base --yes
