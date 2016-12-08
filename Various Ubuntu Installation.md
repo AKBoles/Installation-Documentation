@@ -38,6 +38,11 @@ Primarily for my reference when needed.
     
 ###Jupyter Notebook Installation:
     $ sudo pip install jupyter
+    
+###Sublime Text 3 Installation:
+    $ sudo add-apt-repository ppa:webupd8team/sublime-text-3
+    $ sudo apt-get update
+    $ sudo apt-get install sublime-text-installer
 
 ###Docker Installation:###
 
