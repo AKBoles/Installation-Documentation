@@ -5,6 +5,7 @@ Primarily for my reference when needed.
 
 ###Pip Installation:
     $ sudo apt-get install python-pip python-dev --yes
+    $ sudo pip install --upgrade pip
     
 ###TensorFlow Installation (CPU only):
     $ sudo pip install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.8.0-cp27-none-linux_x86_64.whl
