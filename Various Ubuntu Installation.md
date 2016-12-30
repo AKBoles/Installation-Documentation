@@ -8,7 +8,7 @@ Primarily for my reference when needed.
     $ sudo pip install --upgrade pip
     
 ###TensorFlow Installation (CPU only):
-    $ sudo pip install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.8.0-cp27-none-linux_x86_64.whl
+    $ sudo pip install tensorflow
 
 (Note: to upgrade installation, it is good practice to use “pip uninstall” first to get a clean installation of the updated TensorFlow.)
 
