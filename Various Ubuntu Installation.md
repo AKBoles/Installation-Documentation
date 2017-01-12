@@ -6,6 +6,7 @@ Primarily for my reference when needed.
 ###Pip Installation:
     $ sudo apt-get install python-pip python-dev --yes
     $ sudo pip install --upgrade pip
+    $ sudo pip install --upgrade setuptools
     
 ###TensorFlow Installation (CPU only):
     $ sudo pip install tensorflow
