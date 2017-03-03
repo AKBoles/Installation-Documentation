@@ -36,7 +36,7 @@ Primarily for my reference when needed.
     >>>
 
 ###SciPy Stack Installation:
-    $ sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose --yes
+    $ sudo apt-get install python-numpy python-scipy python-skimage python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose --yes
     
 ###Jupyter Notebook Installation:
     $ sudo pip install jupyter
