@@ -3,12 +3,12 @@ Ubuntu Installation Documentation
 
 Primarily for my reference when needed.
 
-###Pip Installation:
+### Pip Installation:
     $ sudo apt-get install python-pip python-dev --yes
     $ pip install --upgrade pip --user
     $ pip install --upgrade setuptools --user
     
-###TensorFlow Installation (CPU only):
+### TensorFlow Installation (CPU only):
     $ pip install tensorflow --user
 
 (Note: to upgrade installation, it is good practice to use “pip uninstall” first to get a clean installation of the updated TensorFlow.)
@@ -35,21 +35,21 @@ Primarily for my reference when needed.
     
     >>>
 
-###SciPy Stack Installation:
+### SciPy Stack Installation:
     $ sudo apt-get install python-numpy python-scipy python-skimage python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose --yes
     
-###Jupyter Notebook Installation:
+### Jupyter Notebook Installation:
     $ pip install jupyter --user
     
-###Audio Processing
+### Audio Processing
     $ pip install librosa pydub --user
     
-###Sublime Text 3 Installation:
+### Sublime Text 3 Installation:
     $ sudo add-apt-repository ppa:webupd8team/sublime-text-3
     $ sudo apt-get update
     $ sudo apt-get install sublime-text-installer
 
-###Docker Installation:###
+### Docker Installation:###
 
   Check for updates, make sure that “apt” works with https and that CA certificates are installed:
       
@@ -95,17 +95,17 @@ Primarily for my reference when needed.
       
       $ sudo docker run hello-world
 
-###R Programming Installation:###
+### R Programming Installation:###
     $ sudo apt-get install r-base --yes
 
-###Java 8 Installation:###
+### Java 8 Installation:###
     $ sudo add-apt-repository ppa:webupd8team/java
     $ sudo apt-get update
     $ sudo apt-get install oracle-java8-installer
     $ sudo apt-get install oracle-java8-set-default
     $ java –version
 
-###Hadoop Single Node Installation:###
+### Hadoop Single Node Installation:###
   
   Install Java 8 onto system. See above.
   
@@ -270,7 +270,7 @@ export HADOOP_OPTS="-Djava.library.path=$HADOOP_INSTALL/lib/native"
       75755 DataNode
       76332 ResourceManager
 
-###Spark Single Node Installation:###
+### Spark Single Node Installation:###
 
   Download and unpack pre-built Apache Spark 1.6.1:
       
